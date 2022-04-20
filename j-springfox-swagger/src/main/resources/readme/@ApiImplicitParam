@@ -1,0 +1,19 @@
+@ApiImplicitParam的参数说明：
+
+paramType=查询参数类型
+	path=以地址的形式提交数据，（用于restful接口）-->请求参数的获取：@PathVariable。
+	query=请求参数放置于请求地址。（可以直接使用@RequestParam获取。）
+	body=以流的形式提交 仅支持POST。
+	header=请求参数放置于Request Header。（可以直接使用@RequestHeader获取。）
+	form=以form表单的形式提交 仅支持POST。
+
+	
+dataType
+参数的数据类型 只作为标志说明，并没有实际验证。
+	Long 或String
+	name=接收参数名
+	value=接收参数的意义描述
+	required=参数是否必填
+	true=必填
+	false=非必填
+	defaultValue=默认值

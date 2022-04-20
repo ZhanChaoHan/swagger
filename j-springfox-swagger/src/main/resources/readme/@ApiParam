@@ -1,0 +1,11 @@
+@ApiParam请求属性,使用方式：
+
+	name=属性名称
+	value=属性值
+	defaultValue=默认属性值
+	allowableValues=可以不配置
+	required=是否属性必填
+	access=不过多描述
+	allowMultiple=默认为false
+	hidden=隐藏该属性
+	example=举例子

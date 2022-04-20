@@ -1,0 +1,17 @@
+@ApiOperation注解：用在方法上，说明方法的作用，其中各属性的含义：
+
+value=				方法概要描述
+tags=				用于资源或任何其他限定符的逻辑分组。使用时，覆盖value值。
+description=		对方法的详细描述。
+basePath=			基本路径可以不配置。
+position=			如果配置多个Api 想改变显示的顺序位置，（已过时）。
+produces=			响应类型定义属性："application/json, application/xml"。
+consumes=			请求类型定义属性"application/json, application/xml"。
+protocols=			定义方法所使用的协议: http, https, ws, wss。
+authorizations=		高级特性认证时配置。
+hidden=				配置为true 将在文档中隐藏该方法。
+response=			操作相应类型。
+responseContainer=	声明一个响应容器，可以是 "List", "Set" or "Map"，其他无效。
+httpMethod=			请求类型："GET", "HEAD", "POST", "PUT", "DELETE", "OPTIONS" ， "PATCH"。
+code=				http的状态码 默认 200。
+extensions=			扩展属性。
